@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Donald Trump_bscgpbqfo.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Donald Trump_bscgpbqfo@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Donald Trump_bscgpbqfo@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
