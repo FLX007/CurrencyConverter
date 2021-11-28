@@ -16,14 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7sh-bD-jZx">
-                                <rect key="frame" x="82" y="404.5" width="250" height="176"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ayp-97-24Y">
-                                        <rect key="frame" x="0.0" y="0.0" width="250" height="176"/>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ayp-97-24Y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cXJ-6B-ccx">
                                 <rect key="frame" x="47" y="150.5" width="320" height="180"/>
                                 <constraints>
@@ -70,12 +66,10 @@
                             <constraint firstItem="G3a-d3-rgv" firstAttribute="leading" secondItem="meN-4Q-erm" secondAttribute="leading" constant="20" id="Kb8-y8-Y0t"/>
                             <constraint firstItem="meN-4Q-erm" firstAttribute="trailing" secondItem="TBd-Gk-jWU" secondAttribute="trailing" constant="20" id="NBu-Av-rTr"/>
                             <constraint firstItem="TBd-Gk-jWU" firstAttribute="top" secondItem="Alf-ye-a6l" secondAttribute="bottom" constant="8" symbolic="YES" id="PGj-Ml-KVD"/>
-                            <constraint firstItem="7sh-bD-jZx" firstAttribute="top" secondItem="TBd-Gk-jWU" secondAttribute="bottom" constant="40" id="PJw-Fg-zJV"/>
                             <constraint firstItem="meN-4Q-erm" firstAttribute="trailing" secondItem="XLB-R9-pLo" secondAttribute="trailing" constant="20" id="RED-ZG-Nue"/>
                             <constraint firstItem="TBd-Gk-jWU" firstAttribute="top" secondItem="cXJ-6B-ccx" secondAttribute="bottom" id="RQ0-S5-9EN"/>
                             <constraint firstItem="XLB-R9-pLo" firstAttribute="leading" secondItem="meN-4Q-erm" secondAttribute="leading" constant="20" id="TGL-gn-KgW"/>
                             <constraint firstItem="cXJ-6B-ccx" firstAttribute="top" secondItem="XLB-R9-pLo" secondAttribute="bottom" id="Zlg-Pt-rpe"/>
-                            <constraint firstItem="7sh-bD-jZx" firstAttribute="centerX" secondItem="t0p-By-FgY" secondAttribute="centerX" id="h7D-Wy-jHT"/>
                             <constraint firstItem="G3a-d3-rgv" firstAttribute="top" secondItem="meN-4Q-erm" secondAttribute="top" id="iKw-UR-44I"/>
                             <constraint firstItem="TBd-Gk-jWU" firstAttribute="leading" secondItem="meN-4Q-erm" secondAttribute="leading" constant="20" id="odr-fy-hMp"/>
                         </constraints>
