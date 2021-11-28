@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 struct Exchange: Decodable {
     let base: String
     let rates: ExchangeRates
