@@ -70,10 +70,10 @@
                     </view>
                     <navigationItem key="navigationItem" title=" Converter" id="y66-dG-B6q"/>
                     <connections>
-                        <outlet property="currencyPicker" destination="cXJ-6B-ccx" id="hQo-Tv-JMR"/>
-                        <outlet property="destAmountLabel" destination="Alf-ye-a6l" id="pRk-vb-g7q"/>
-                        <outlet property="destAmountTextField" destination="TBd-Gk-jWU" id="o80-aT-KA8"/>
-                        <outlet property="sourceAmountTextField" destination="XLB-R9-pLo" id="mEw-xc-TxR"/>
+                        <outlet property="currencyPicker" destination="cXJ-6B-ccx" id="Fgg-At-jQz"/>
+                        <outlet property="destAmountLabel" destination="Alf-ye-a6l" id="EcR-U1-ZR9"/>
+                        <outlet property="destAmountTextField" destination="TBd-Gk-jWU" id="h7P-Un-fUj"/>
+                        <outlet property="sourceAmountTextField" destination="XLB-R9-pLo" id="OEP-GQ-xF0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SFa-O2-nvG" sceneMemberID="firstResponder"/>

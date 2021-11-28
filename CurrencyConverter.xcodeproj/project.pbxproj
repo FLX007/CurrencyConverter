@@ -14,6 +14,7 @@
 		A18A1AD92753972400F13515 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18A1AD82753972400F13515 /* Assets.xcassets */; };
 		A18A1ADC2753972400F13515 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18A1ADA2753972400F13515 /* LaunchScreen.storyboard */; };
 		A18A1AE827539E9100F13515 /* Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18A1AE727539E9100F13515 /* Exchange.swift */; };
+		A18A1AEB2753AB0700F13515 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18A1AEA2753AB0700F13515 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A18A1ADB2753972400F13515 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A18A1ADD2753972400F13515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A18A1AE727539E9100F13515 /* Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exchange.swift; sourceTree = "<group>"; };
+		A18A1AEA2753AB0700F13515 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				A18A1AE627539E1400F13515 /* SupportingFiles */,
 				A18A1AE927539E9C00F13515 /* Models */,
 				A18A1ADD2753972400F13515 /* Info.plist */,
+				A18A1AEA2753AB0700F13515 /* NetworkManager.swift */,
 			);
 			path = CurrencyConverter;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			files = (
 				A18A1AD42753972300F13515 /* MainViewController.swift in Sources */,
 				A18A1AD02753972300F13515 /* AppDelegate.swift in Sources */,
+				A18A1AEB2753AB0700F13515 /* NetworkManager.swift in Sources */,
 				A18A1AD22753972300F13515 /* SceneDelegate.swift in Sources */,
 				A18A1AE827539E9100F13515 /* Exchange.swift in Sources */,
 			);
