@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "shutterstock_1421993945 (1)-1.jpg",
       "idiom" : "universal"
     },
     {
@@ -10,6 +11,7 @@
           "value" : "light"
         }
       ],
+      "filename" : "shutterstock_1421993945 (1).jpg",
       "idiom" : "universal"
     },
     {
@@ -19,6 +21,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "shutterstock_1421993945.jpg",
       "idiom" : "universal"
     }
   ],
